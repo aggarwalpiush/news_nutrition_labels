@@ -1,0 +1,3 @@
+[submodule "web-nutrition-server"]
+	path = web-nutrition-server
+	url = https://github.com/web-nutrition-project-2018/web-nutrition-server.git
