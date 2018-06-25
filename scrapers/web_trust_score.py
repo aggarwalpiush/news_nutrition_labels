@@ -15,9 +15,12 @@ def get_rank(domain_to_query):
         text_pr_list = text_pr.split('|')
         for i in text_pr_list:
             if i == 'Trustworthiness':
-                score['WOT Score'] = str(text_pr_list[text_pr_list.index(i) + 1])+'/100'
+                if str(text_pr_list[text_pr_list.index(i) + 1]) == 'No Data':
+                    score['WOT Score'] = '0/100'
+                else:
+                    score['WOT Score'] = str(text_pr_list[text_pr_list.index(i) + 1])+'/100'
     else:
-        score['WOT Score'] = 0
+        score['WOT Score'] = '0/100'
     return score
 
 
