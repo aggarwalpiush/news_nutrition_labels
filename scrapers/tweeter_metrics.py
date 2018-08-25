@@ -7,10 +7,10 @@ class ExtractAuthFeatures(object):
     debug = False
 
     def __init__(self):
-        self.consumer_key = "omFBeHFvgvWoEmadTvH7WAJQz"
-        self.consumer_secret = "HZAQjfWoJu1ByNVo8nCav3ARgFCKOGWpObosoPqa0FYRwVonYm"
-        self.access_token = "4508853492-x2j9pmT7Y4UrmGKR2RuxgveyuDj0uBE2s1i8jgk"
-        self.access_token_secret = "AJtI3ZAga8ok8hqtmxaYxkirKJFNE4ZArTzY5G8lLLr0l"
+        self.consumer_key = "firgrfdffhgfdecjlkinnkjbhiedrhvi"
+        self.consumer_secret = "lkhbjudevbtjjlifhtljltvulhlfbfjg"
+        self.access_token = "gknbifhujudfdjenktgigfivetcggtcc"
+        self.access_token_secret = "rvffjeubucngckdhlublteteinitjjuh"
         self.url_domain = []
 
     def get_source(self, url):
